@@ -1,8 +1,11 @@
 import 'package:flutter/material.dart';
+import 'server_time.dart' as server;
 
 void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {
+  // final serverThime = server.serverTime;
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -25,6 +28,7 @@ class MyHomePage extends StatefulWidget {
 class _MyHomePageState extends State<MyHomePage> {
   @override
   Widget build(BuildContext context) {
+    // server.serverDateTime();
     return Scaffold(
       appBar: AppBar(
         title: Text('lols'),
