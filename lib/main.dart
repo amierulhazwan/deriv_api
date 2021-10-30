@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'server_time.dart' as server;
 
 void main() => runApp(MyApp());
 
